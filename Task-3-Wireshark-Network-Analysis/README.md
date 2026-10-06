@@ -48,9 +48,7 @@ The assessment followed these steps:
 
 ## Wireshark Filter Used
 
-```text
 http
-```
 
 The http filter was used to display HTTP-related packets and make it easier to identify web requests and responses.
 
@@ -91,7 +89,7 @@ Capture Traffic -> Apply Filter -> Identify Communication -> Inspect Packets -> 
 - Wireshark can only analyze traffic that is captured on the available network interface.
 - Encrypted traffic such as HTTPS cannot normally be read directly as plain application data.
 - Packet analysis can become difficult when a large amount of network traffic is captured.
-- The `http` filter only displays HTTP-related traffic and does not show every packet involved in the complete communication.
+- The http filter only displays HTTP-related traffic and does not show every packet involved in the complete communication.
 
 ## Key Learnings
 
